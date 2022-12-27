@@ -1,0 +1,21 @@
+.container{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 750px;
+}
+
+.title{
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid rgb(24,118,209);
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.container .test{
+margin-left: 15px;
+}
