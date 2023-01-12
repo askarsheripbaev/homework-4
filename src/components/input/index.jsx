@@ -7,12 +7,6 @@ import TextField from '@mui/material/TextField';
 
 const DATA = []
 
-
-<<<<<<< HEAD
-=======
-const DATA = []
->>>>>>> refs/remotes/origin/main
-
 export default class Input extends React.Component {
   constructor(props) {
     super(props)
@@ -29,19 +23,11 @@ export default class Input extends React.Component {
     e.preventDefault()
     const copiedArr = [...this.state.postList]
     if (this.state.postTitle && this.state.postTitle.trim())
-<<<<<<< HEAD
       copiedArr.push({
         id: Math.random(),
         body: '',
         title: this.state.postTitle
       })
-=======
-    copiedArr.push({
-      id: Math.random(),
-      body: '',
-      title: this.state.postTitle
-    })
->>>>>>> refs/remotes/origin/main
     this.setState({postList: copiedArr})
     this.setState({postTitle: ''})
   }
